@@ -55,10 +55,10 @@ $( document ).ready(function() {
     username = localStorage.getItem('dribbble');
     shot_get(username);
   } else {
-    $('.shot_input').hide();
+    $('.shot_input').show();
     $('.shot_input p').css('color','#8A8A8A');
     $('.shot_input p').text('Add your Dribbble username to start!');
-    $('.span.edit').show();
+    $('.span.edit').hide();
   }
 
   $('.shot_input a').click(function() {

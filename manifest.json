@@ -1,6 +1,6 @@
 {
   "name": "Dribbble Shot Watch",
-  "version": "0.0.0.5",
+  "version": "0.0.0.6",
   "author": "Tim Skaggs and Steamboat Labs",
   "manifest_version": 2,
   "description": "Get your latest Dribbble Shot a tab so you can keep up with the stats.",
@@ -9,8 +9,8 @@
   ],
   "content_security_policy": 
     "default-src 'self' https://www.google.com http://api.dribbble.com/players/tskaggs/shots; style-src 'self' https://www.google.com",
-  // "icons": { "48": "images/designerhacker_48.png",
-  //            "128": "images/designerhacker_128.png" },
+  "icons": { "48": "images/dribbble_shot_48.png",
+             "128": "images/dribbble_shot_128.png" },
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
