@@ -27,6 +27,7 @@ $( document ).ready(function() {
           $('.title').text(title);
           $('a.shot_link').attr('href', url);
           $('.shot_input').hide();
+          $('span.edit').show();
           $('.shot_link').css('display', 'inline-block');
 
      }, 
@@ -43,14 +44,21 @@ $( document ).ready(function() {
     $('.big_card .shot_hover').fadeToggle('faster');
   });
 
+  $('span.edit').click(function() {
+    $('span.edit').hide();
+    $('.shot_input').show();
+  });
+
   if (localStorage.getItem('dribbble')) {
     $('.shot_input').hide();
+    $('span.edit').show();
     username = localStorage.getItem('dribbble');
     shot_get(username);
   } else {
+    $('.shot_input').hide();
     $('.shot_input p').css('color','#8A8A8A');
     $('.shot_input p').text('Add your Dribbble username to start!');
-    $('.shot_input').show();
+    $('.span.edit').show();
   }
 
   $('.shot_input a').click(function() {

@@ -20,7 +20,7 @@ a {
 #content {
   display: block;
   margin: 0 auto;
-  width: 900px;
+  width: 420px;
   text-align: center;
 }
 
@@ -69,7 +69,18 @@ a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
- }
+}
+
+.edit_button {
+  height: 14px;
+}
+.edit_button span.edit {
+  display: none;
+  float: right;
+  color: #ea4c89;
+  font-size: 12px;
+  cursor: pointer;
+}
 
 #content .shot_details {
   padding-bottom: 10px;
@@ -176,7 +187,7 @@ footer img {
 @-webkit-keyframes fadeUpIn /* Safari and Chrome */
 {
   from { opacity:0; top:233px; }
-  to { opacity:1; top: 211px; }
+  to { opacity:1; top: 225px; }
 }
 
 ::selection {

@@ -3,14 +3,14 @@
   "version": "0.0.0.5",
   "author": "Tim Skaggs and Steamboat Labs",
   "manifest_version": 2,
-  "description": "Designer News + Hacker News in a tab.",
+  "description": "Get your latest Dribbble Shot a tab so you can keep up with the stats.",
   "permissions": [
     "http://api.dribbble.com/"
   ],
   "content_security_policy": 
     "default-src 'self' https://www.google.com http://api.dribbble.com/players/tskaggs/shots; style-src 'self' https://www.google.com",
-  "icons": { "48": "images/designerhacker_48.png",
-             "128": "images/designerhacker_128.png" },
+  // "icons": { "48": "images/designerhacker_48.png",
+  //            "128": "images/designerhacker_128.png" },
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
