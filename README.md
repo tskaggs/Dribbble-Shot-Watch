@@ -1,7 +1,7 @@
-Designer News + Hacker News Chrome Extension
+Dribbble Shot Watch Chrome Extension
 =========================
 
-Chrome Extension for a new tab showing Designer News and Hacker News feeds.
+Chrome Extension for a new tab showing your latest shot
 
 ### Install
 
